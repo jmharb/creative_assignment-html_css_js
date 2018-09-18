@@ -1,0 +1,22 @@
+{
+  "name": "creative_assignment-html_css_js",
+  "version": "1.0.0",
+  "description": "Creative assignment using HTML/CSS/JS",
+  "main": "index.js",
+  "scripts": {
+    "start": "serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jmharb/creative_assignment-html_css_js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jmharb/creative_assignment-html_css_js/issues"
+  },
+  "homepage": "https://github.com/jmharb/creative_assignment-html_css_js#readme",
+  "devDependencies": {
+    "serve": "^10.0.1"
+  }
+}

@@ -1,0 +1,26 @@
+[
+    {
+        "id": "uuid-1",
+        "make": "Toyota",
+        "model": "Tacoma",
+        "mileage": 1234,
+        "service_entires": [
+            {
+                "type": "oil",
+                "mileage": 1234,
+                "cost": 12.34
+            },
+            {
+                "type": "tire_rotation",
+                "mileage": 1234,
+                "cost": 34.56
+            },
+            {
+                "type": "repair",
+                "mileage": 1234,
+                "cost": 78.90,
+                "description": "Bad things were fixed...(optional property)"
+            }
+        ]
+    }
+]
