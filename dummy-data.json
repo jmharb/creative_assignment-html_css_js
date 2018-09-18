@@ -12,12 +12,12 @@
             },
             {
                 "type": "tire_rotation",
-                "mileage": 1234,
+                "mileage": 2345,
                 "cost": 34.56
             },
             {
                 "type": "repair",
-                "mileage": 1234,
+                "mileage": 3456,
                 "cost": 78.90,
                 "description": "Bad things were fixed...(optional property)"
             }
