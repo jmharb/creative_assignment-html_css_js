@@ -5,8 +5,21 @@
     background-color: #043c96;
 }
 
+.top-spacing {
+    margin-top:20px;
+}
+.footer {
+    height: 200px;
+}
+.align-text-right {
+    text-align: right;
+}
+.align-text-center {
+    text-align: center;
+}
 .vehicle-list-item {
   border-radius: 25px;
   border: 2px solid #3665a3;
   padding:15px;
 }
+
