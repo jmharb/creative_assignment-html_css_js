@@ -36,61 +36,90 @@
         <section class="sidebar">
             <!-- TODO sidebar content-->
         </section>
-        <section class="page">
-            <!-- Main Content -->
-            <header>
-                <h1 class="page-header" id="vehicle-name">active vehicle name</h1>
-            </header>
-            <div class="row">
-                <section class="col">
+        <div class="container">
+            <div class="row justify-content-md-center">
+                <section class="page top-spacing">
+                    <!-- Main Content -->
                     <header>
-                        <h2>Events</h2>
+                        <h1 class="page-header" id="vehicle-name">2012 Toyota 4Runner</h1>
                     </header>
-                    <div class="list-group">
-                        <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
-                            <div class="d-flex w-100 justify-content-between">
-                                <h5 class="mb-1">Oil Change</h5>
+                    <div class="row top-spacing">
+                        <div class="col">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col"></div>
+                                    <div class="col">
+                                            <dl class="row">
+                                                <dt class="col-sm-3">Cost:</dt>
+                                                <dd class="col-sm-9 align-text-center">$60</dd>
+                                                <dt class="col-sm-3">Mileage:</dt>
+                                                <dd class="col-sm-9 align-text-center">54302</dd>
+                                                <dt class="col-sm-3">Mileage:</dt>
+                                                <dd class="col-sm-9 align-text-center">54302</dd>
+                                            </dl>
+                                    </div>
+                                </div>
                             </div>
-                            <p class="mb-1">Got oil changed at Bradford Auto</p>
-                            <dl class="row">
-                                <dt class="col">Cost:</dt>
-                                <dd class="col-sm-9">$60</dd>
-                                <dt class="col">Mileage:</dt>
-                                <dd class="col-sm-9">54302</dd>
-                            </dl>
-                        </a>
-                        <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
-                            <div class="d-flex w-100 justify-content-between">
-                                <h5 class="mb-1">Fuel</h5>
+                            <!-- TODO Picture -->
+                            <!-- TODO general info about car -->
+                        </div>
+                    </div>
+                    <div class="row top-spacing">
+                        <section class="col" id="vehicle-mpg">
+                            <canvas id="vehicle-mpg-chart" height="300"></canvas>
+                        </section>
+                        <section class="col" id="vehicle-cost">
+                            <canvas id="vehicle-cost-chart" height="300"></canvas>
+                        </section>
+                    </div>
+                    <div class="row top-spacing">
+                        <section class="col">
+                            <header>
+                                <h2>Events</h2>
+                            </header>
+                            <div class="list-group">
+                                <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                                    <div class="d-flex w-100 justify-content-between">
+                                        <h5 class="mb-1">Oil Change</h5>
+                                    </div>
+                                    <p class="mb-1">Got oil changed at Bradford Auto</p>
+                                    <dl class="row">
+                                        <dt class="col">Cost:</dt>
+                                        <dd class="col-sm-9">$60</dd>
+                                        <dt class="col">Mileage:</dt>
+                                        <dd class="col-sm-9">54302</dd>
+                                    </dl>
+                                </a>
+                                <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                                    <div class="d-flex w-100 justify-content-between">
+                                        <h5 class="mb-1">Fuel</h5>
+                                    </div>
+                                    <p class="mb-1">Costco Gas</p>
+                                    <dl class="row">
+                                        <dt class="col">Cost:</dt>
+                                        <dd class="col-sm-9">$32</dd>
+                                        <dt class="col">Mileage:</dt>
+                                        <dd class="col-sm-9">54124</dd>
+                                    </dl>
+                                </a>
+                                <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                                    <div class="d-flex w-100 justify-content-between">
+                                        <h5 class="mb-1">Repair</h5>
+                                    </div>
+                                    <p class="mb-1">Fix bumper</p>
+                                    <dl class="row">
+                                        <dt class="col">Cost:</dt>
+                                        <dd class="col-sm-9">$543</dd>
+                                    </dl>
+                                </a>
                             </div>
-                            <p class="mb-1">Costco Gas</p>
-                            <dl class="row">
-                                <dt class="col">Cost:</dt>
-                                <dd class="col-sm-9">$32</dd>
-                                <dt class="col">Mileage:</dt>
-                                <dd class="col-sm-9">54124</dd>
-                            </dl>
-                        </a>
-                        <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
-                            <div class="d-flex w-100 justify-content-between">
-                                <h5 class="mb-1">Repair</h5>
-                            </div>
-                            <p class="mb-1">Fix bumper</p>
-                            <dl class="row">
-                                <dt class="col">Cost:</dt>
-                                <dd class="col-sm-9">$543</dd>
-                            </dl>
-                        </a>
+                        </section>
+
                     </div>
                 </section>
-                <section class="col" id="vehicle-mpg">
-                    <canvas id="vehicle-mpg-chart"></canvas>
-                </section>
-                <section class="col" id="vehicle-cost">
-                    <canvas id="vehicle-cost-chart"></canvas>
-                </section>
             </div>
-        </section>
+        </div>
+        <footer class="footer" ></footer>
     </main>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
