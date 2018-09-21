@@ -28,3 +28,15 @@ a {
 a:hover {
     text-decoration: none;
 }
+
+.logonScreen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.logonForm {
+    width: 300px;
+    text-align: center;
+}
