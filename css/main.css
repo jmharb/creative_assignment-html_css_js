@@ -4,3 +4,9 @@
 .bg-1 {
     background-color: #043c96;
 }
+
+.vehicle-list-item {
+  border-radius: 25px;
+  border: 2px solid #3665a3;
+  padding:15px;
+}
