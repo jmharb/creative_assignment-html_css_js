@@ -22,4 +22,9 @@
   border: 2px solid #3665a3;
   padding:15px;
 }
-
+a {
+    color: inherit;
+}
+a:hover {
+    text-decoration: none;
+}
